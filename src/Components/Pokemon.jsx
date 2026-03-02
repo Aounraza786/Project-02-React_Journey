@@ -8,7 +8,7 @@ function Pokemon() {
   const [errors, setError] = useState(null);
   const [search, setSearch] = useState("");
 
-  const API = "https://pokeapi.co/api/v2/pokemon?limit=14";
+  const API = "https://pokeapi.co/api/v2/pokemon?limit=24";
 
   useEffect(() => {
     const fetchPokemon = async () => {
